@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/44485b0623.js"></script>
+</head>
+<body>
+    <header class="Cabezaa">
+        <img class="imagen" src="./imagenes/FiestaTotal Rentals.png" alt="">
+        <nav class="nav">
+        <ul class="nav-lista">
+            <li style="--clr:#fff">
+                <a href="./index.html" data-text="Inicio">  Inicio</a></li>
+             <li style="--clr:#fff">
+                <a href="./quienes_somos.html" data-text="Sobre_nosotros">  Sobre_nosotros</a></li>
+            <li style="--clr:#fff">
+                <a href="./atencion_clientes.html" data-text="Contactanos">  Contactanos</a></li> 
+        </ul>
+    </nav>
+    </header>
+    <!-- Sección de atención a clientes con opciones de contacto -->
+    <div class="contacto">
+        <div class="atencion_clientes">
+            <div class="Apertura">
+                <h2>Atención a Clientes</h2> <!-- Título de la sección de atención a clientes -->
+                <h3>Estramos aquí para ayudarte... <!-- Subtítulo y mensaje de atención al cliente --> </h3>
+                <h4>Opciones de Contacto</h4> <!-- Subtítulo de opciones de contacto -->
+            </div>
+
+            <section>
+                
+                <ul>
+                <div class="Cont">
+                    <!-- Lista con diferentes medios de contacto -->
+                    <li>Teléfono de atención
+                        <p><i class="fa fa-phone" id="tel"></i>   "Llámanos al: (123) 456-7890" <br>
+                            <i class="fa fa-clock" id="Horario"></i>  Horario de atención: Lunes a Sábado de 9:00 AM a 7:00 PM
+                        </p>
+                    </li>
+                    <li><i class="fa fa-whatsapp" id="WhatsApp"></i> Whatsapp
+                    
+                        <p>"Envíanos un mensaje directo por WhatsApp: (55) 01234-5678"</p>
+                    </li>
+                    <li><i class="fa fa-envelope" id="mail"></i> Correo Electrónico
+                        <p>Escribenos al</p>
+                        <a href="mailto:atencion@fiestatotal.com">atencion@fiestatotal.com</a> <!-- Enlace para enviar correo electrónico -->
+                        <p>Responderemos en menos de 24 hrs.</p>
+                    </li>
+                </div>
+                <div class="Formu">
+                    <li class="formul">Formulario de Contacto <br>
+                        <!-- Formulario con campos para que los usuarios envíen información -->
+                        <div class="inp">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre"  class="Input1" required>
+                        <i class="fa-solid fa-name"></i>
+                    </div>
+                    <div class="inp">
+                        <input type="email" id="email" name="email" placeholder="Correo electronico" class="Input1"  required>
+                        <i class="fa-solid fa-name"></i>
+                    </div>
+                    <div class="inp">
+                        <input type="telefono" id="telefono" name="telefono" placeholder="Teléfono"  class="Input1" required>
+                        <i class="fa-solid fa-name"></i>
+                    </div>
+                    <div class="inp">
+                        <input type="asunto" id="asunto" name="asunto" placeholder="Asunto-tipo de consulta" class="Input1"  required>
+                        <i class="fa-solid fa-name"></i>
+                    </div>
+                        <section>
+                            <!-- Textarea para comentarios adicionales -->
+                            <form>
+                                <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Comentario adicional" class="Input2"></textarea>
+                            </form>
+                        </section>
+
+                        <button type="submit" class="boton1">Enviar Mensaje</button> <!-- Botón de envío -->
+                    </li>
+                </div>
+                </ul>
+                
+            </section>
+        </div>
+    </div>
+
+    <!-- Pie de página con información legal y de contacto -->
+    <footer class="Pie">
+        <section class="textointegrantes">
+            <p>
+                "© 2024 FiestaTotal Rentals. Todos los derechos reservados."<br>
+                "Desarrollado por:" <br>Bryan Hernández Flores <br>Alessandro Pedroza Martínez <br>Michael Rodríguez Reséndiz <!-- Información de los desarrolladores -->
+            </p>
+        </section>
+
+        <section>
+            <h2>Contacto</h2> <!-- Título de la sección de contacto en el pie de página -->
+            <ul>
+                <!-- Lista de información de contacto -->
+                <li>Teléfono: (552) - 543 - 7865</li>
+                <li>Whatsapp: 55 - 4576 - 0967</li>
+                <li>Correo Electrónico:
+                    <a href="mailto: atencion@fiestatotal.com">atencion@fiestatotal.com</a> <!-- Enlace de correo electrónico -->
+                </li>
+                <li>Dirección
+                    <p>Calle Fiesta Total #123, Ciudad de México, Alcaldia Gustavo A Madero</p>
+                </li>
+                <li>Horario de atención: Lunes a Sábado de 9:00 AM a 7:00 PM</li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>
